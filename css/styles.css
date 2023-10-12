@@ -30,7 +30,7 @@ body {
 }
 
 .link:hover,
-.link.focus {
+.link:focus {
   color: #404bbf;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .main-type-button:hover,
 .main-type-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .second-title-unvisible {
@@ -137,6 +137,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .box-fourth {
